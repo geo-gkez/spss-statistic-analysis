@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+ 
+\usepackage{setspace}
+
+\usepackage[LGR,T1]{fontenc} % Support Icelandic Characters
+\usepackage[utf8]{inputenc} % Support Icelandic Characters
+\usepackage{graphicx} % Support for including images
+
+%\usepackage{hyperref} % Support for hyperlinks
+
+\usepackage[breaklinks]{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan,unicode=true, pdftitle={Ομάδα 4},bookmarks=true,final=true,}
+\urlstyle{same}
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{subcaption}
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm, bindingoffset=0.2cm, head=15pt]{geometry}
+
+\usepackage{caption}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{esvect}
+\usepackage{titlesec}
+\usepackage[autostyle=true]{csquotes}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+
+
+\usepackage[greek,english]{babel}
+\usepackage{alphabeta}
+ \newcommand{\lat } {\latintext}
+
+%------------------------------------------------------------------
+% TITLE
+%------------------------------------------------------------------
+\title{
+\centerline{\includegraphics[width=50mm]{images/ekpa.PNG}}
+\vspace{0.5 cm}
+Εργασία Ομάδας 4\\
+\vspace{0.5cm}
+\lat{SPS...S}
+\large  \\
+ΣΤΑΤΙΣΤΙΚΗ ΑΝΑΛΥΣΗ ΔΕΔΟΜΕΝΩΝ \\ 
+\vspace{0.5cm}
+\small ΔΔΠΜΣ στην Ιατρική Φυσική – Ακτινοφυσική \\
+\vspace{0.5cm}
+\small Ομάδα 4:\\
+\small Βαράκα Μαρία \\
+\small Γιαννακούλη Παναγιώτα \\
+\small       Γκεζέρης Γιώργος \\
+  \small     Τσελεπής Δημήτριος
+  }
+
+
+  
+
+\date{15/12/2019}
+
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+%------------------------------------------------------------------
+% DOCUMENT START HERE
+%------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\input{sections/01_abstraction.tex}
+\input{sections/02_context.tex}
+\input{sections/03_method.tex}
+\input{sections/04_results.tex}
+
+
+\end{document}
